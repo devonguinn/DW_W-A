@@ -124,6 +124,12 @@ body {
   color: var(--primary-color);
 }
 
+.header-social {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
 /* Hero Section */
 .hero {
   display: flex;

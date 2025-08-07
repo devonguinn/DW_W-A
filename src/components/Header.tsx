@@ -1,3 +1,5 @@
+import fbLogo from '/src/assets/images/fb.png'
+
 interface HeaderProps {
   activeSection: string
   onNavigate: (section: string) => void
@@ -46,6 +48,30 @@ const Header = ({ activeSection, onNavigate }: HeaderProps) => {
             </li>
           </ul>
         </nav>
+        <div className="header-social">
+          <a 
+            href="https://www.facebook.com/dewittwoodworkingandart" 
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit our Facebook page"
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease'
+            }}
+            onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
+            onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+          >
+            <img 
+              src={fbLogo} 
+              alt="Facebook"
+              style={{
+                width: '28px',
+                height: '28px', 
+                objectFit: 'contain'
+              }}
+            />
+          </a>
+        </div>
       </div>
     </header>
   )
