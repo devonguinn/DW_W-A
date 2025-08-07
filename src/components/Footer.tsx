@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>DeWitt Wood</h3>
+            <h3>DeWitt Woodworking and Art</h3>
             <p>Custom Woodworking & Fine Craftsmanship</p>
             <div className="contact-info">
               <p>📧 Amdewitt1988@gmail.com</p>
