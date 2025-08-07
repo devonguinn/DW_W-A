@@ -11,8 +11,8 @@ const Footer = () => {
             <h3>DeWitt Wood</h3>
             <p>Custom Woodworking & Fine Craftsmanship</p>
             <div className="contact-info">
-              <p>📧 info@dewittwood.com</p>
-              <p>📱 (555) 123-4567</p>
+              <p>📧 Amdewitt1988@gmail.com</p>
+              <p>📱 (217) 556-5016</p>
               <p>📍 Hillsboro, Illinois</p>
             </div>
           </div>
