@@ -1,12 +1,5 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 # DeWitt Wood - Custom Woodworking Landing Page
 
 A professional landing page for a custom woodworking shop built with React and TypeScript.
@@ -50,7 +43,7 @@ Start the development server:
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+Open [http://localhost:<port>](http://localhost:<port>) to view it in the browser.
 
 ### Build
 
@@ -66,29 +59,8 @@ Preview the production build:
 npm run preview
 ```
 
-## Customization
 
-### Content Updates
-
-- Update business information in component files
-- Replace placeholder images with actual woodworking photos
-- Modify contact information in `Footer.tsx`
-- Customize project gallery in `Gallery.tsx`
-
-### Styling
-
-- Color scheme can be modified in `App.css` CSS variables
-- Component-specific styles are organized in the main CSS file
-- Responsive breakpoints can be adjusted in media queries
-
-### Adding New Sections
-
-1. Create a new component in `src/components/`
-2. Import and add to `App.tsx`
-3. Update navigation in `Header.tsx`
-4. Add corresponding styles in `App.css`
-
-## Technologies Used
+## Tech stack
 
 - **React 18**: Frontend framework
 - **TypeScript**: Type-safe JavaScript
@@ -114,41 +86,4 @@ src/
 ```
 
 ## License
-
-This project is created for DeWitt Wood custom woodworking business.
-
-## Notes for Development
-
-- Image placeholders are included and should be replaced with actual photos
-- Contact information needs to be updated with real business details
-- Form submission currently logs to console - implement backend integration as needed
-- Social media links in footer need to be updated with actual profiles
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Public, whatever.
