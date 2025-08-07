@@ -1,8 +1,14 @@
 /* CSS Variables for Woodworking Theme */
 :root {
   --primary-color: #8B4513; /* Saddle Brown */
-  --secondary-color: #CD853F; /* Peru */
-  --accent-color: #DEB887; /* Burlywood */
+  --secondary-color: #CD853F; /* Pe/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem 2rem 2rem;
+  background: linear-gradient(135deg, var(--light-wood) 0%, var(--accent-color) 100%);
+}--accent-color: #DEB887; /* Burlywood */
   --dark-wood: #654321; /* Dark Brown */
   --light-wood: #F5E6D3; /* Light Wood */
   --text-dark: #2C1810;
@@ -77,6 +83,11 @@ body {
   top: 0;
   width: 100%;
   z-index: 1000;
+}
+
+/* Main content offset for fixed header */
+main {
+  margin-top: 80px; /* Base offset for desktop */
 }
 
 .header-container {
@@ -790,7 +801,20 @@ body {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) and (min-width: 769px) {
+  main {
+    margin-top: 100px; /* Medium screens */
+  }
+  
+  .hero {
+    padding: 3rem 2rem 2rem;
+  }
+}
+
 @media (max-width: 768px) {
+  main {
+    margin-top: 140px; /* Mobile - header is much taller */
+  }
   .header-container {
     flex-direction: column;
     padding: 1rem;
@@ -804,7 +828,7 @@ body {
   .hero {
     flex-direction: column;
     text-align: center;
-    padding: 5rem 1rem 2rem;
+    padding: 2rem 1rem 2rem;
   }
 
   .hero-content {
