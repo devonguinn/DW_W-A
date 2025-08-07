@@ -149,10 +149,6 @@ const Hero = ({ onNavigate }: HeroProps) => {
                   if (placeholder) placeholder.style.display = 'flex';
                 }}
               />
-              <div className="placeholder-image" style={{ display: 'none' }}>
-                <p>🖼️ Image</p>
-                <small>Image not available</small>
-              </div>
             </div>
             <div className="modal-info">
               <h3>{selectedImage.alt}</h3>
