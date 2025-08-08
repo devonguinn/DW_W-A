@@ -22,22 +22,10 @@ const Hero = ({ onNavigate }: HeroProps) => {
   })
 
   // Function to determine size and orientation for variety
-  const generateImageProperties = (index: number, filename: string) => {
-    // Create a pseudo-random but consistent pattern based on filename
-    const hash = filename.split('').reduce((a, b) => {
-      a = ((a << 5) - a) + b.charCodeAt(0)
-      return a & a
-    }, 0)
-    
-    // More uniform sizing - only small variations (within 10%)
-    const orientations: ('portrait' | 'landscape' | 'square')[] = ['square', 'square', 'landscape'] // Favor squares and landscape
-    
-    // Subtle size variations - most items will be medium with occasional small/large
-    let size: 'small' | 'medium' | 'large'
-    size = 'medium'
-
-    // Mostly square and landscape orientations for uniformity
-    const orientation = orientations[Math.abs(hash + index) % orientations.length]
+  const generateImageProperties = () => {
+    // All images set to medium size and landscape orientation
+    const size: 'small' | 'medium' | 'large' = 'medium'
+    const orientation: 'portrait' | 'landscape' | 'square' = 'landscape'
     
     return { size, orientation }
   }
@@ -55,7 +43,7 @@ const Hero = ({ onNavigate }: HeroProps) => {
   const heroImages: HeroImage[] = useMemo(() => {
     return Object.entries(imageModules).map(([path, url], index) => {
       const filename = path.split('/').pop() || `image-${index}`
-      const { size, orientation } = generateImageProperties(index, filename)
+      const { size, orientation } = generateImageProperties()
       
       return {
         id: index + 1,
