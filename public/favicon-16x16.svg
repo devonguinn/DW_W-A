@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <defs>
+    <style>
+      .trunk { fill: #8B4513; }
+      .leaves1 { fill: #228B22; }
+      .leaves2 { fill: #32CD32; }
+      .leaves3 { fill: #006400; }
+    </style>
+  </defs>
+  
+  <!-- Tree trunk -->
+  <rect x="7" y="10" width="2" height="5" class="trunk"/>
+  
+  <!-- Tree canopy - simplified for small size -->
+  <circle cx="8" cy="8" r="4" class="leaves3"/>
+  <circle cx="8" cy="7" r="3.5" class="leaves1"/>
+  <circle cx="8" cy="6" r="3" class="leaves2"/>
+  
+  <!-- Small highlight -->
+  <circle cx="6.5" cy="5.5" r="1" fill="#90EE90" opacity="0.6"/>
+</svg>

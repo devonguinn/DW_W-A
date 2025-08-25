@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://dewittwoodworking.com/</loc>
+    <lastmod>2025-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://dewittwoodworking.com/src/assets/images/gallery/gallery1.jpg</image:loc>
+      <image:title>DeWitt Woodworking Gallery</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Gallery Section -->
+  <url>
+    <loc>https://dewittwoodworking.com/#gallery</loc>
+    <lastmod>2025-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://dewittwoodworking.com/src/assets/images/gallery/gallery1.jpg</image:loc>
+      <image:title>Custom Woodworking Gallery 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dewittwoodworking.com/src/assets/images/gallery/gallery2.jpg</image:loc>
+      <image:title>Custom Woodworking Gallery 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dewittwoodworking.com/src/assets/images/gallery/gallery3.jpg</image:loc>
+      <image:title>Custom Woodworking Gallery 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dewittwoodworking.com/src/assets/images/gallery/gallery4.jpg</image:loc>
+      <image:title>Custom Woodworking Gallery 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dewittwood.com/src/assets/images/gallery/gallery5.jpg</image:loc>
+      <image:title>Custom Woodworking Gallery 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dewittwoodworking.com/src/assets/images/gallery/gallery6.jpg</image:loc>
+      <image:title>Custom Woodworking Gallery 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dewittwoodworking.com/src/assets/images/gallery/gallery7.jpg</image:loc>
+      <image:title>Custom Woodworking Gallery 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dewittwoodworking.com/src/assets/images/gallery/gallery8.jpg</image:loc>
+      <image:title>Custom Woodworking Gallery 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dewittwoodworking.com/src/assets/images/gallery/gallery9.jpg</image:loc>
+      <image:title>Custom Woodworking Gallery 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dewittwoodworking.com/src/assets/images/gallery/gallery10.jpg</image:loc>
+      <image:title>Custom Woodworking Gallery 10</image:title>
+    </image:image>
+  </url>
+  
+  <!-- About Section -->
+  <url>
+    <loc>https://dewittwoodworking.com/#about</loc>
+    <lastmod>2025-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://dewittwoodworking.com/src/assets/images/adam.jpg</image:loc>
+      <image:title>Adam DeWitt - Master Woodworker</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Contact Section -->
+  <url>
+    <loc>https://dewittwoodworking.com/#contact</loc>
+    <lastmod>2025-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>

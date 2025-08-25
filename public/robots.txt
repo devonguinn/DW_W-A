@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl all content
+# Sitemap location
+Sitemap: https://dewittwoodworking.com/sitemap.xml
+
+# Crawl-delay (optional - adds a small delay between requests)
+Crawl-delay: 1
+
+# Disallow crawling of any admin or private areas (if any exist in the future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow crawling of images and assets
+Allow: /src/assets/
+Allow: /public/
